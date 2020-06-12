@@ -4,6 +4,17 @@ import requests
 
 from discord import Game
 
+'''
+TODO Check if person started to play a game then check in some db(that will be added later)
+if person already played this game - if so - nothing to do, else - add this game to game list
+of a person's games.
+
+Make a request to bot - asking if we(current user) have common games with a person(input username)
+output is a list of games then people can play tougether.
+
+Other things in this bot are just for init functional play and will be removed or transformed later.
+'''
+
 DISCORD_BOT_TOKEN = ''
 
 client = discord.Client()
